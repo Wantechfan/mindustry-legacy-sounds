@@ -1,8 +1,8 @@
 name: "legacy-sounds"
 displayName: "Legacy Sounds"
 author: "WantechFan"
-description: "Brings back old SFX. \nStill indev so don't expect much"
-version: "0.1"
+description: "Brings back old SFX. \n[yellow[]]Still indev so don't expect much."
+version: "0.2"
 minGameVersion: "154"
 hidden: true
 subtitle: "Old SFX is back!"
