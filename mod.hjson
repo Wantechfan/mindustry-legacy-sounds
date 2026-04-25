@@ -2,7 +2,7 @@ name: "legacy-sounds"
 displayName: "Legacy Sounds"
 author: "WantechFan"
 description: "Brings back old SFX. \n[yellow[]]Still indev so don't expect much.\nSupport this mod by contributing to it via pull request in this mod's repository."
-version: "0.3"
+version: "0.4"
 minGameVersion: "154"
 hidden: true
 subtitle: "Old SFX is back!"
