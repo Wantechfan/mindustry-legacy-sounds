@@ -1,8 +1,5 @@
-<p align="center">
-  
 ![icon](icon.png)
-  
 # Legacy Sounds
-</p>
-Brings back old sfx used prior to B154.
-Discuss things about this mod at https://discord.com/channels/391020510269669376/1428283291357810800
+Do you like older sounds more than modern sounds and wanted it back? This is the mod you're searching for. This mod brings back the old sounds used prior to B154.
+
+Please note that this mod is still in development.
