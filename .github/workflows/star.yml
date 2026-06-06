@@ -1,0 +1,15 @@
+name: Discord Star Notif
+
+on:
+  watch:
+    types: [started]
+
+jobs:
+  discord-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord Message
+        uses: chase-roohms/discord-notify@v1
+        with:
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: "Damn, **${{ github.event.sender.login }}** just starred **${{ github.repository }}**! Tysm bro.\n-# <@1393198962101456949> bro look a star dropped!"

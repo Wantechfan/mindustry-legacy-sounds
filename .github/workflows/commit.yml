@@ -1,0 +1,15 @@
+name: Discord Commit Notif
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send custom Discord message
+        uses: chase-roohms/discord-notify@v1
+        with:
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: "**${{ github.actor }}** summoned a commit and threw it to **${{ github.repository }}**!\nCommit Link: https://github.com/${{ github.repository }}/commit/${{ github.sha }}\nMessage: ${{ github.event.head_commit.message }}"
